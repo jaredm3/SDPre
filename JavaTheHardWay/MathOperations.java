@@ -32,6 +32,7 @@ public class MathOperations {
      both = one + two;
      System.out.println( both );
 
+     // This is what I added
      int h;
      double t;
 
