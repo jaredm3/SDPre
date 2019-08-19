@@ -56,5 +56,5 @@ public class DictionaryOrder {
      System.out.println( "visualbasic isn't a made-up language!" );
      if ( name.compareToIgnoreCase("visualbasic") > 0 )
      System.out.println( name + " comes AFTER visualbasic" );
-   }
+   } 
  }
