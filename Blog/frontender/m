@@ -1,0 +1,54 @@
+
+Airport panel:
+__________________
+Choose operation:
+[1] Add airplane
+[2] Add flight
+[x] Exit
+>
+1
+Give plane ID:
+WTH11
+Give plane capacity:
+68
+Choose operation:
+[1] Add airplane
+[2] Add flight
+[x] Exit
+>
+1
+Give plane ID:
+IDK12
+Give plane capacity:
+70
+Choose operation:
+[1] Add airplane
+[2] Add flight
+[x] Exit
+>
+2
+Give plane ID:
+IDK12
+Give plane departure airport code:
+KOUN
+Give destination airport code:
+KDEN
+Choose operation:
+[1] Add airplane
+[2] Add flight
+[x] Exit
+>
+2
+Give plane ID:
+WTH11
+Give plane departure airport code:
+KLNK
+Give destination airport code:
+KHOS
+Choose operation:
+[1] Add airplane
+[2] Add flight
+[x] Exit
+>
+x
+SEEYUH!

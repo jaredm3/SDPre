@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/master.css">
+
+    <title>Jared's Home</title>
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <header>
+        <ul class="icons">
+							<li><a href="https://github.com/jaredm3">
+                <img src="images/GithubLogo.png" alt="github">
+              </a></li>
+							<li><a href="https://www.linkedin.com/in/jared-mcgowan-569374173/">
+                <img src="images/LinkedInLogo.png" alt="linkedIn">
+              </a></li>
+				</ul>
+
+
+        <nav>
+            <a href="#" class="hide-desktop">
+              <img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
+            </a>
+
+
+            <ul class="show-desktop hide-mobile" id="nav">
+                <li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu"></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="BlogHome.html">Blog</a></li>
+                <li><a href="ProjectsHome.html">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+      </header>
+
+      <section>
+          <img src="images/BillyGoat.svg" alt="server graphic" class="server">
+
+          <h1>Jared's home</h1>
+          <p class="subhead">A host for my blog, showcase for my programs,
+            <br> and testing ground for HTML/CSS & JS development.
+          </p>
+
+          <img src="images/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+      </section>
+  </div>
+
+  <div class="blue-container">
+      <div class="container">
+        <h3>My Most Recent Blog Posts</h3>
+        <ul>
+            <li>
+              <a href="BlogHome.html#blog1">
+              <p>Blog 1</p>
+              <img src="images/icon-1.svg" alt="Calendar icon">
+              <p>Java - 'public static void main'</p>
+            </a>
+            </li>
+            <li>
+              <a href="#">
+              <p>Blog 2</p>
+              <img src="images/icon-1.svg" alt="Calendar icon">
+              <p>A blog about Java</p>
+            </a>
+            </li>
+            <li>
+              <a href="#">
+              <p>Blog 3</p>
+              <img src="images/icon-1.svg" alt="Calendar icon">
+              <p>A blog about Java</p>
+            </a>
+            </li>
+        </ul>
+      </div>
+  </div>
+
+  <div class="gray-container">
+      <div class="container">
+        <h4>A few of my Java Programs</h4>
+        <ul>
+            <li>
+              <figure>
+                <img src="images/java.png" alt="Java logo">
+                <blockquote><b><a href="ProjectsHome.html#T1">Triangle Categorizer</a></b><br>
+                  <br>
+                  This program asks the user to input three triangle side
+                  lengths, and then determines what type of
+                   triangle it is.
+                </blockquote>
+                <figcaption><a href="SourceCodeTriangle.html">Source Code</a></figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="images/java.png" alt="Java logo">
+                <blockquote><b><a href="ProjectsHome.html#T2">Airport UI</a></b><br>
+                  <br>
+                  This program utilizes HashMaps, and ArrayLists to
+                   create an airport like UI. One system allows the user to add
+                   airplanes, flights, and passengers. The other system allows
+                   users to print different flights, planes and plane info.
+                </blockquote>
+                <figcaption><a href="SourceCodeAirport.html">Source Code</a></figcaption>
+              </figure>
+            </li>
+        </ul>
+      </div>
+  </div>
+
+  <div class="container">
+    <a href="#" class="cta">Contact</a>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="container">
+        <a href="#">
+
+        </a>
+            <p class="address">SeeYuh!</p>
+
+
+      </div>
+    </div>
+  </footer>
+
+
+    <script>
+
+      var menu = document.getElementById('menu');
+      var nav = document.getElementById('nav');
+      var exit = document.getElementById('exit');
+
+      menu.addEventListener('click', function(e) {
+          nav.classList.toggle('hide-mobile');
+          e.preventDefault();
+      });
+
+      exit.addEventListener('click', function(e) {
+          nav.classList.add('hide-mobile');
+          e.preventDefault();
+      });
+
+    </script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

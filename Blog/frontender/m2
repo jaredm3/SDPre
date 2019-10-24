@@ -1,0 +1,41 @@
+
+Flight panel:
+__________________
+
+Choose operation:
+[1] Print planes
+[2] Print flights
+[3] Print plane info
+[x] Quit
+>
+1
+IDK12 (70 ppl)
+WTH11 (68 ppl)
+Choose operation:
+[1] Print planes
+[2] Print flights
+[3] Print plane info
+[x] Quit
+>
+2
+IDK12 (70 ppl) (KOUN-KDEN)
+WTH11 (68 ppl) (KLNK-KHOS)
+Choose operation:
+[1] Print planes
+[2] Print flights
+[3] Print plane info
+[x] Quit
+>
+3
+Give plane ID:
+WTH11
+WTH11 (68 ppl)
+Choose operation:
+[1] Print planes
+[2] Print flights
+[3] Print plane info
+[x] Quit
+>
+x
+SEEYUH!
+BUILD SUCCESSFUL (total time: 5 minutes 25 seconds)
